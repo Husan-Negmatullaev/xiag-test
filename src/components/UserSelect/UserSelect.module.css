@@ -1,0 +1,9 @@
+.user {
+    width: 200px;
+    /* Programmer commentary:
+    *  I rarely use the width property.
+    *  Because this property fixes the size.
+    *  Better to use the "max-width" property.
+    */
+    margin-left: 15px;
+}

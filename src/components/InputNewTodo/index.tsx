@@ -2,11 +2,7 @@ import React from 'react';
 import styles from './InputNewTodo.module.css'
 
 /* Programmer commentary:
-*  Component "InputNewTodo" is executed as class component.
-*  This is best done in the form of a "Functional Component"
-*  and would make the code smaller and more readable.
-*
-*  I would change the name of the component from "InputNewTodo" to "CreateTodo". Appropriately changed the name of the types:
+*   I would change the name of the component from "InputNewTodo" to "CreateTodo". Appropriately changed the name of the types:
 *  "InputNewTodoProps" in "CreateTodoProps"
 *  "InputNewTodoState" in "CreateTodoProps"
 * */

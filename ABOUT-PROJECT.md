@@ -50,3 +50,7 @@ The use of "@redux/toolkit" in this project is not clear to me, as this project 
 
 ### About the architecture of the project.
 There is nothing to say about architecture, as this application does not use any popular method of application architecture introduction such as: MVC, Pure Architecture, FSD, ONION (Multilayer), Reactive Architecture
+
+### About "Class Components"
+I don’t mind "Class Components". But "react" has long had "functional components" and "hooks" because of this we can write less code and readable code.
+Personally I use "Class components" as "ErrorBoundaries".

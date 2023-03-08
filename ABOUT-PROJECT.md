@@ -16,7 +16,10 @@ There are three ways to address this problem:
    Event pointers: not available
    }
 
-3. Update the "react-scripts" module to version 5
+3. Update the "react-scripts" module to version 5. Also add property to "package.json":
+"resolutions": {
+   "react-error-overlay": "6.0.9"
+}
 
 ### About project
 The project is made with the "create-react-app" command. The Webpack settings in "create-react-app" are huge, it is better to use "vite" or make your own builder on Webpack.

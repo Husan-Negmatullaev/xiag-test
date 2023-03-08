@@ -85,7 +85,10 @@ function UserSelect(props: UserSelectProps) {
             {/*
             * Programmer commentary:
             * Type "any" do not use it badly.
-            * In addition, these elements have no "key" attribute
+            * In addition, these elements have no "key" attribute.
+            *
+            * Loading data from the server is not processed.
+            * There will be an error in the first renderer.
             */}
         </select>
     );

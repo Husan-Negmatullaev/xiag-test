@@ -74,6 +74,10 @@ class Index extends React.Component<MainAppProps, MainAppState> {
         return (
             <div>
                 <Form.Check type="checkbox" label="all todos is done!" checked={window.allTodosIsDone}/>
+                {/* Programmer commentary:
+                *  What is missing here is the "onChange" method.
+                *  Instead of "window.allTodosIsDone" you should create a local
+                */}
                 <hr/>
                 <InputNewTodo todoTitle={todoTitle} onChange={this.handleTodoTitle} onSubmit={this.handleSubmitTodo}/>
                 {this.props.todos.map((t, idx) => (

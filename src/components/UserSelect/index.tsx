@@ -24,19 +24,20 @@ function UserSelect(props: UserSelectProps) {
         () => {
             console.log('userSelect');
             /* Programmer commentary:
-            *  It is better to use "debugger" or "React devtools" for more information.
+            *  Inappropriate comment
             */
             fetch('https://jsonplaceholder.typicode.com/users/').then(
                 (users) => users.json(),
             ).then(users => setOptions(users))
-            /*
-            * Programmer commentary:
-            * Again strange code style it is not formatted.
-            * If you are too lazy to format then you should use ESlint
-            * */
+
         },
         [],
     )
+    /*
+    * Programmer commentary:
+    * Again strange code style it is not formatted.
+    * If you are too lazy to format then you should use ESlint
+    * */
     const [options, setOptions] = React.useState([]);
     /*
     * Programmer commentary:
@@ -55,6 +56,8 @@ function UserSelect(props: UserSelectProps) {
         *  It is better to use "debugger" or "React devtools" for more information.
         */
         const changedTodos = todos.map((t, index) => {
+            /* Programmer commentary:
+            *  Rename argument "t" to "todoData".*/
             const res = { ...t }
             if (index == idx) {
                 /* Programmer commentary:
@@ -69,6 +72,10 @@ function UserSelect(props: UserSelectProps) {
             }
             return res;
         })
+        /* Programmer commentary:
+        *  This logic could be put into "redux"
+        *  and passed on to him the necessary data.
+        * */
         dispatch({type: 'CHANGE_TODO', payload: changedTodos})
     }
 

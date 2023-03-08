@@ -15,6 +15,10 @@ import { Provider } from 'react-redux'
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store}>
+        {/*
+        * Because of the poor setting of "@redux/toolkit".
+        * It is not necessary to wrap our application into "<Provider>".
+        */}
         <App />
       </Provider>
   </React.StrictMode>,

@@ -1,5 +1,8 @@
 # More information about this project
 
+### How can I quickly find my comments on this project?
+Search by text - Programmer commentary
+
 ### About Iframe
 There is a problem in our application. When our application launches, the "yarn start" or "npm start" command in our
 the application appears "iframe", which prevents us from interacting with the interface.
